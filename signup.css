@@ -1,0 +1,107 @@
+html,body{
+    height: 100%;
+}
+body{
+   display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background:#f8faf8;
+  
+}
+.container{
+    background:#A8DADC;
+    
+    border-radius: 10px;
+    width: 100%;
+  max-width: 330px;
+  padding: 20px;
+  margin:auto ;
+  z-index: 2;
+  height: 520px;
+  box-shadow: 5px 3px rgb(102, 99, 99);
+
+}
+.form-check-input{
+    font-weight: 400;
+}
+.form-label-email{
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.form-label{
+    margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+h5{
+
+  max-width: 200px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 18px auto;
+  position:relative;
+  
+
+}
+h5:before{
+  content: "";
+  width: 82px;
+  height: 1px;
+  display: block;
+  background: rgb(14, 13, 13);
+  position: absolute;
+  top: 50%;
+  left: 0;
+}
+h5:after{
+  content: "";
+  width: 82px;
+  height: 1px;
+  display: block;
+  background: rgb(12, 12, 12);
+  position: absolute;
+  top: 50%;
+  right: 0;
+}
+
+
+
+
+
+.fa {
+  padding: 18px;
+  font-size: 30px;
+  width: 52px;
+  text-align: center;
+  text-decoration: none;
+  margin: 50px 20px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: #2214e0;
+  color: white;
+}
+.fa-google {
+  background: #d34f4f;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #1818d8;
+  color: white;
+}
+.foot{
+  margin-left: 60px;
+  margin-bottom: 20px;
+}
+.footLink{
+  color:rgb(214, 70, 70);
+  margin-left: 5px;
+  
+}
